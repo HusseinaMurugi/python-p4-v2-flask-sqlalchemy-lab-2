@@ -38,4 +38,4 @@ with app.app_context():
     db.session.add_all([review1, review2, review3, review4, review5])
     db.session.commit()
 
-    print("Seeding complete ✅")
+    print("Seeding complete!")
